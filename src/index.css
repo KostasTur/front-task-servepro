@@ -1,13 +1,94 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* @import-normalize; */
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Sen:wght@400;700&display=swap');
+
+/* Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property */
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+	all: unset;
+	display: revert;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Preferred box-sizing value */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/*
+  Remove list styles (bullets/numbers)
+  in case you use it with normalize.css
+*/
+ol,
+ul {
+	list-style: none;
+}
+
+/* For images to not be able to exceed their container */
+img {
+	max-width: 100%;
+}
+
+/* Removes spacing between cells in tables */
+table {
+	border-collapse: collapse;
+}
+
+/* Revert the 'white-space' property for textarea elements on Safari */
+textarea {
+	white-space: revert;
+}
+
+/* css variables */
+
+:root {
+	--color-dark: #0f1d5b;
+	--color-light: #ffffff;
+
+	--golor-gray: #707070;
+
+	--bg-color-primary: #f7f6f7;
+	--bg-color-darker: #e8e8e8;
+
+	--primary-font: 'Roboto', sans-serif;
+	--secondary-font: 'Sen', sans-serif;
+
+	--font-sm: 12px;
+	--font-m: 14px;
+	--font-base: 16px;
+	--font-l: 18px;
+}
+
+* {
+	font-family: var(--primary-font);
+}
+
+#root {
+	min-height: 101vh;
+
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+}
+
+/* Firefox */
+* {
+	scrollbar-width: 12px;
+	scrollbar-color: var(--color-dark) rgba(214, 211, 211, 0.2);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+	width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+	background: rgba(214, 211, 211, 0.2);
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: var(--color-dark);
+	border-radius: 20px;
+	border: 2px solid rgb(247, 246, 246);
 }

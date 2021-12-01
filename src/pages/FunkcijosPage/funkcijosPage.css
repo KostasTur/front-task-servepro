@@ -1,0 +1,17 @@
+.funkcijos-page {
+	display: grid;
+	grid-template-columns: 275px 1fr;
+	grid-template-rows: 70px 1fr auto;
+}
+
+/* child elements from other components */
+/* .client-search {
+	grid-row-start: 2;
+} */
+footer {
+	grid-column-start: 2;
+	grid-row-start: 3;
+}
+.side-nav {
+	grid-row: 1 / -1;
+}
