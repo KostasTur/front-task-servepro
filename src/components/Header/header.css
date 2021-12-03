@@ -1,12 +1,12 @@
 header {
+	--header-spacing: 24px;
+
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	min-height: 72px;
 
 	background-color: var(--color-dark);
-
-	--header-spacing: 24px;
 }
 .header__logo {
 	padding-left: 20px;
@@ -29,6 +29,7 @@ header {
 	padding-bottom: var(--header-spacing);
 	color: var(--color-light);
 }
+/* devbridge suggests not to use modifiers for state classes should use .is-active */
 .main-nav__link--active {
 	border-bottom: 3px solid var(--color-light);
 	padding-bottom: calc(var(--header-spacing) - 3px);

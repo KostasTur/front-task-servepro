@@ -7,6 +7,7 @@ import { ReactComponent as FooterLogo } from '../../assets/footerLogo.svg';
 import { ReactComponent as LanguageIcon } from '../../assets/gaublys.svg';
 
 const Footer = () => {
+	// not using footer tag because the components is used inside main tag components
 	return (
 		<footer>
 			<div className='footer__logo'>

@@ -65,6 +65,12 @@ textarea {
 	font-family: var(--primary-font);
 }
 
+/* default body background  */
+body {
+	background-color: var(--color-light);
+}
+
+/* Postioning (101vh is for always visible scrollbar) */
 #root {
 	min-height: 101vh;
 
@@ -72,9 +78,10 @@ textarea {
 	grid-template-rows: auto 1fr auto;
 }
 
+/* Custom Scrollbar */
 /* Firefox */
 * {
-	scrollbar-width: 12px;
+	scrollbar-width: thin;
 	scrollbar-color: var(--color-dark) rgba(214, 211, 211, 0.2);
 }
 

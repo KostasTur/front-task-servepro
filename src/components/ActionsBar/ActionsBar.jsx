@@ -1,4 +1,3 @@
-import React from 'react';
 import { ReactComponent as AddUserIcon } from '../../assets/addUserIcon.svg';
 import { ReactComponent as AddCompanyIcon } from '../../assets/addCompanyIcon.svg';
 import { ReactComponent as PrintIcon } from '../../assets/printIcon.svg';

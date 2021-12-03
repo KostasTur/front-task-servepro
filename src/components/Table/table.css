@@ -1,0 +1,35 @@
+.data-table {
+	min-width: 100%;
+	border-collapse: collapse;
+}
+
+.data-table__body .data-table__row {
+	cursor: pointer;
+}
+.data-table__header {
+	font-weight: 700;
+}
+
+.data-table__header,
+.data-table__cell {
+	padding: 9px 5px;
+	white-space: nowrap;
+	color: var(--color-dark);
+	font-size: 14px;
+}
+
+.data-table__cell:first-child,
+.data-table__header:first-child {
+	padding-left: 40px;
+}
+.data-table__cell:first-child {
+	border-radius: 100px 0 0 100px;
+}
+.data-table__cell:last-child {
+	border-radius: 0 100px 100px 0;
+}
+
+.data-table__body .data-table__row:hover .data-table__cell {
+	background-color: var(--color-dark);
+	color: var(--color-light);
+}
