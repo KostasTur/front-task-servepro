@@ -23,14 +23,13 @@ header {
 	display: block;
 	cursor: pointer;
 
-	/* font-weight: 300; */
-	font-size: 18px;
+	font-size: var(--font-l);
 	line-height: 24px;
 	padding-bottom: var(--header-spacing);
 	color: var(--color-light);
 }
 /* devbridge suggests not to use modifiers for state classes should use .is-active */
-.main-nav__link--active {
+.main-nav__link.is-active {
 	border-bottom: 3px solid var(--color-light);
 	padding-bottom: calc(var(--header-spacing) - 3px);
 }

@@ -1,4 +1,4 @@
-.funkcijos-page {
+.main-layout {
 	display: grid;
 	grid-template-columns: 275px 1fr;
 	grid-template-rows: 70px 1fr auto;

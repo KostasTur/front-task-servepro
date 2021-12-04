@@ -11,9 +11,9 @@ const SideNav = () => {
 				<li className='side-nav__item'>
 					<NavLink
 						className={({ isActive }) =>
-							cn('side-nav__link', { 'side-nav__link--active': isActive })
+							cn('side-nav__link', { 'is-active': isActive })
 						}
-						to='/'
+						to='/funkcijos/registracija'
 					>
 						Registracija
 					</NavLink>
@@ -21,9 +21,9 @@ const SideNav = () => {
 				<li className='side-nav__item'>
 					<NavLink
 						className={({ isActive }) =>
-							cn('side-nav__link', { 'side-nav__link--active': isActive })
+							cn('side-nav__link', { 'is-active': isActive })
 						}
-						to='/funkcijos'
+						to='/funkcijos/kliento-paieska'
 					>
 						Kliento paieška
 					</NavLink>
@@ -31,9 +31,9 @@ const SideNav = () => {
 				<li className='side-nav__item'>
 					<NavLink
 						className={({ isActive }) =>
-							cn('side-nav__link', { 'side-nav__link--active': isActive })
+							cn('side-nav__link', { 'is-active': isActive })
 						}
-						to='/'
+						to='/funkcijos/saskaitos'
 					>
 						Sąskaitos
 					</NavLink>
@@ -41,9 +41,9 @@ const SideNav = () => {
 				<li className='side-nav__item'>
 					<NavLink
 						className={({ isActive }) =>
-							cn('side-nav__link', { 'side-nav__link--active': isActive })
+							cn('side-nav__link', { 'is-active': isActive })
 						}
-						to='/'
+						to='/funkcijos/kasa'
 					>
 						Kasa
 					</NavLink>
@@ -51,9 +51,9 @@ const SideNav = () => {
 				<li className='side-nav__item'>
 					<NavLink
 						className={({ isActive }) =>
-							cn('side-nav__link', { 'side-nav__link--active': isActive })
+							cn('side-nav__link', { 'is-active': isActive })
 						}
-						to='/'
+						to='/funkcijos/orderiai'
 					>
 						Orderiai
 					</NavLink>
@@ -61,9 +61,9 @@ const SideNav = () => {
 				<li className='side-nav__item'>
 					<NavLink
 						className={({ isActive }) =>
-							cn('side-nav__link', { 'side-nav__link--active': isActive })
+							cn('side-nav__link', { 'is-active': isActive })
 						}
-						to='/'
+						to='/funkcijos/medziagu-isdavimas'
 					>
 						Medžiagų išdavimas
 					</NavLink>
@@ -74,9 +74,9 @@ const SideNav = () => {
 				<li className='side-nav__item'>
 					<NavLink
 						className={({ isActive }) =>
-							cn('side-nav__link', { 'side-nav__link--active': isActive })
+							cn('side-nav__link', { 'is-active': isActive })
 						}
-						to='/'
+						to='/funkcijos/fiziniai-klientai'
 					>
 						Fiziniai klientai
 					</NavLink>
@@ -84,9 +84,9 @@ const SideNav = () => {
 				<li className='side-nav__item'>
 					<NavLink
 						className={({ isActive }) =>
-							cn('side-nav__link', { 'side-nav__link--active': isActive })
+							cn('side-nav__link', { 'is-active': isActive })
 						}
-						to='/'
+						to='/funkcijos/juridiniai-klientai'
 					>
 						Juridiniai Klientai
 					</NavLink>
@@ -94,9 +94,9 @@ const SideNav = () => {
 				<li className='side-nav__item'>
 					<NavLink
 						className={({ isActive }) =>
-							cn('side-nav__link', { 'side-nav__link--active': isActive })
+							cn('side-nav__link', { 'is-active': isActive })
 						}
-						to='/'
+						to='/funkcijos/paslaugos'
 					>
 						Paslaugos
 					</NavLink>
@@ -104,9 +104,9 @@ const SideNav = () => {
 				<li className='side-nav__item'>
 					<NavLink
 						className={({ isActive }) =>
-							cn('side-nav__link', { 'side-nav__link--active': isActive })
+							cn('side-nav__link', { 'is-active': isActive })
 						}
-						to='/'
+						to='/funkcijos/prekes'
 					>
 						Prekės
 					</NavLink>
@@ -114,9 +114,9 @@ const SideNav = () => {
 				<li className='side-nav__item'>
 					<NavLink
 						className={({ isActive }) =>
-							cn('side-nav__link', { 'side-nav__link--active': isActive })
+							cn('side-nav__link', { 'is-active': isActive })
 						}
-						to='/'
+						to='/funkcijos/darbuotojai'
 					>
 						Darbuotojai
 					</NavLink>

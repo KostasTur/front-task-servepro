@@ -1,4 +1,3 @@
-/* @import-normalize; */
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Sen:wght@400;700&display=swap');
 
@@ -8,7 +7,7 @@
 	display: revert;
 }
 
-/* Preferred box-sizing value */
+/* Preferred box-sizing value, remove margin and padding */
 *,
 *::before,
 *::after {
@@ -47,17 +46,14 @@ textarea {
 	--color-dark: #0f1d5b;
 	--color-light: #ffffff;
 
-	--golor-gray: #707070;
-
+	--bg-color-default: #ffffff;
 	--bg-color-primary: #f7f6f7;
-	--bg-color-darker: #e8e8e8;
 
 	--primary-font: 'Roboto', sans-serif;
 	--secondary-font: 'Sen', sans-serif;
 
 	--font-sm: 12px;
 	--font-m: 14px;
-	--font-base: 16px;
 	--font-l: 18px;
 }
 
@@ -67,7 +63,7 @@ textarea {
 
 /* default body background  */
 body {
-	background-color: var(--color-light);
+	background-color: var(--bg-color-default);
 }
 
 /* Postioning (101vh is for always visible scrollbar) */

@@ -16,7 +16,7 @@ const Header = () => {
 					<li className='main-nav__item'>
 						<NavLink
 							className={({ isActive }) =>
-								cn('main-nav__link', { 'main-nav__link--active': isActive })
+								cn('main-nav__link', { 'is-active': isActive })
 							}
 							to='/funkcijos'
 						>
@@ -26,7 +26,7 @@ const Header = () => {
 					<li className='main-nav__item'>
 						<NavLink
 							className={({ isActive }) =>
-								cn('main-nav__link', { 'main-nav__link--active': isActive })
+								cn('main-nav__link', { 'is-active': isActive })
 							}
 							to='/ataskaitos'
 						>
@@ -36,7 +36,7 @@ const Header = () => {
 					<li className='main-nav__item'>
 						<NavLink
 							className={({ isActive }) =>
-								cn('main-nav__link', { 'main-nav__link--active': isActive })
+								cn('main-nav__link', { 'is-active': isActive })
 							}
 							to='/sandelys'
 						>
@@ -46,7 +46,7 @@ const Header = () => {
 					<li className='main-nav__item'>
 						<NavLink
 							className={({ isActive }) =>
-								cn('main-nav__link', { 'main-nav__link--active': isActive })
+								cn('main-nav__link', { 'is-active': isActive })
 							}
 							to='/nustatymai'
 						>
@@ -56,7 +56,7 @@ const Header = () => {
 					<li className='main-nav__item'>
 						<NavLink
 							className={({ isActive }) =>
-								cn('main-nav__link', { 'main-nav__link--active': isActive })
+								cn('main-nav__link', { 'is-active': isActive })
 							}
 							to='/atsijungti'
 						>

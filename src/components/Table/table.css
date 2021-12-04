@@ -1,13 +1,13 @@
 .data-table {
 	min-width: 100%;
-	border-collapse: collapse;
+}
+
+.data-table__header {
+	font-weight: 700;
 }
 
 .data-table__body .data-table__row {
 	cursor: pointer;
-}
-.data-table__header {
-	font-weight: 700;
 }
 
 .data-table__header,
@@ -15,7 +15,7 @@
 	padding: 9px 5px;
 	white-space: nowrap;
 	color: var(--color-dark);
-	font-size: 14px;
+	font-size: var(--font-m);
 }
 
 .data-table__cell:first-child,

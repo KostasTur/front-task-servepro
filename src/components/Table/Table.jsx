@@ -1,5 +1,5 @@
 import './table.css';
-const Table = ({ id, columns, data }) => {
+const Table = ({ id, columns, data, action }) => {
 	return (
 		<table className='data-table'>
 			<thead className='data-table__head'>
@@ -13,7 +13,11 @@ const Table = ({ id, columns, data }) => {
 			</thead>
 			<tbody className='data-table__body'>
 				{data.map((rowData) => (
-					<tr className='data-table__row' key={rowData[id]}>
+					<tr
+						className='data-table__row'
+						key={rowData[id]}
+						onClick={() => action()}
+					>
 						{columns.map(({ path }) => (
 							<td className='data-table__cell' key={path}>
 								{rowData[path]}
