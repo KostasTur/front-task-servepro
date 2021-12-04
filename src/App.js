@@ -32,7 +32,7 @@ function App() {
 			<Routes>
 				<Route path='/' element={<HomePage />} />
 				<Route path='/funkcijos' element={<MainLayout />}>
-					<Route index element={<FunctionsComponent />} />
+					<Route element={<FunctionsComponent />} />
 					<Route path='/funkcijos/registracija' element={<EmptyComponent />} />
 					<Route path='/funkcijos/kliento-paieska' element={<ClientSearch />} />
 					<Route path='/funkcijos/saskaitos' element={<EmptyComponent />} />
