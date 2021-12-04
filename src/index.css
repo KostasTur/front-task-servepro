@@ -16,10 +16,6 @@
 	padding: 0;
 }
 
-/*
-  Remove list styles (bullets/numbers)
-  in case you use it with normalize.css
-*/
 ol,
 ul {
 	list-style: none;
@@ -48,6 +44,7 @@ textarea {
 
 	--bg-color-default: #ffffff;
 	--bg-color-primary: #f7f6f7;
+	--bg-color-darker: #e8e8e8;
 
 	--primary-font: 'Roboto', sans-serif;
 	--secondary-font: 'Sen', sans-serif;

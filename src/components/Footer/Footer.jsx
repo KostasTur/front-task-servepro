@@ -32,7 +32,7 @@ const Footer = () => {
 			</ul>
 			<div className='footer__language'>
 				<LanguageIcon />
-				<span>Liteuvių</span>
+				<span>Lietuvių</span>
 			</div>
 		</footer>
 	);
